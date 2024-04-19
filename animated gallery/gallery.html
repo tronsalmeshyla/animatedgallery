@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime</title>
+
+    <style>
+    
+
+    .header{
+            padding:30px;
+            background-color: rgb(161, 167, 177);
+            text-align: center;
+        }
+
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 0;
+        }
+        .row{
+            padding: 50px;
+        }
+        .col1{
+                width:25%;
+                padding: 10px 10px 20px 10px;
+                border: 2px solid black;
+                background-color: gainsboro;
+                box-shadow: 10px 10px 5px gray;
+                float: left;
+                -ms-transform: rotate(7deg);
+                -webkit-transform: rotate(7deg);
+                transform: rotate(7deg);
+
+        }
+
+        .col1 span{
+            font-weight: bold;
+            font-size: 25px;
+
+        }
+
+        .col1:hover{
+            transform: rotate(0deg);
+        }
+
+        .col2{
+            width: 25%;
+            padding: 10px 10px 20px 10px;
+            border: 2px solid black;
+            background-color: gainsboro;
+            box-shadow: 10px 10px 5px gray;
+            float: left;
+            -ms-transform: rotate(-8deg);
+            -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+
+        }
+
+        .col2 span{
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .col2:hover{
+            transform:rotate(0deg);
+        }
+
+        .row:after{
+            content:" ";
+            display:table;
+            clear:both;
+
+
+        }
+
+        @media screen and (max-width:600px){
+            .col1{
+                width:100%;
+
+            }
+            .col2{
+                width:100%;
+            }
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="header"><h1> ANIME LIST </h1>
+    </div>
+
+    <div class="row">
+        <div class="col1">
+            <img src="img/one piece.jpg" width="100%">
+            <span> One Piece</span>
+            <p class="desc1">One Piece is a Japanese manga series written and illustrated 
+                by Eiichiro Oda. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since 
+                July 1997, with its individual chapters compiled into 104 tankōbon volumes as of November 2022. The story 
+                follows the adventures of Monkey D. Luffy, a boy whose body gained the properties of rubber after 
+                unintentionally eating a Devil Fruit. With his pirate crew, the Straw Hat Pirates, Luffy explores the 
+                Grand Line in search of the deceased King of the Pirates Gol D. Roger's ultimate treasure known as the 
+                "One Piece" in order to become the next King of the Pirates. </p>
+        </div>
+
+        <div class="col2">
+            <img src="img/inuyasha.jpg" width="100%">
+            <span> Inuyasha</span>
+            <p class="desc2">Inuyasha is a Japanese manga series written and illustrated by Rumiko Takahashi. It was 
+                serialized in Shogakukan's shōnen manga magazine Weekly Shōnen Sunday from November 1996 to June 2008, 
+                with its chapters collected in fifty-six tankōbon volumes. The series begins with Kagome Higurashi, a 
+                fifteen-year-old middle school girl from modern-day Tokyo who is transported to the Sengoku period 
+                after falling into a well in her family shrine, where she meets the half-dog demon, half-human Inuyasha.
+                 After the sacred Shikon Jewel re-emerges from deep inside Kagome's body, she accidentally shatters it
+                  into dozens of fragments that scatter across Japan.</p>
+        </div>
+
+ <!-- -->
+ <div class="col1">
+    <img src="img/demon slayer.jpg" width="100%">
+    <span> Demon Slayer</span>
+    <p class="desc1">Demon Slayer is a Japanese manga series written and illustrated by Koyoharu Gotouge
+        It was serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump from February 2016 to May 
+        2020, with its chapters collected in 23 tankōbon volumes. It has been published in English by Viz
+         Media and simultaneously published by Shueisha on their Manga Plus platform. It follows teenage 
+         Tanjiro Kamado, who strives to become a demon slayer after his family was slaughtered and his 
+         younger sister, Nezuko, turned into a demon.</p>
+</div>
+
+<div class="col2">
+    <img src="img/naruto.jpg" width="100%">
+    <span>Naruto</span>
+    <p class="desc4">Naruto is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells 
+        the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming 
+        the Hokage, the leader of his village. The story is told in two parts – the first set in Naruto's 
+        pre-teen years, and the second in his teens. The series is based on two one-shot manga by Kishimoto:
+         Karakuri (1995), which earned Kishimoto an honorable mention in Shueisha's monthly Hop Step Award the
+          following year, and Naruto (1997) Naruto was serialized in Shueisha's magazine, Weekly Shōnen Jump 
+          from 1999 to 2014, and released in tankōbon (book) form in 72 volumes.</p>
+</div>
+
+<!-- -->
+    </div>
+
+    <!-- -->
+</div>
+    
+</body>
+</html
